@@ -10,7 +10,7 @@ class _HistoryScreenState extends State<HistoryScreen> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        backgroundColor: Color(0xFF4C9AF9),
+        backgroundColor: Color(0xFF438BE4),
         body: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [

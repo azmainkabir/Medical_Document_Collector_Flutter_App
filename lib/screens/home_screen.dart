@@ -27,7 +27,7 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        backgroundColor: Color(0xFF4C9AF9),
+        backgroundColor: Color(0xFF438BE4),
         body: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
@@ -101,7 +101,7 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
                 children: [
                   Container(
                     decoration: BoxDecoration(
-                      color: Colors.white,
+                      color: Color(0xFFEBF1F9),
                       borderRadius: BorderRadius.only(
                           topLeft: Radius.circular(28.0),
                           topRight: Radius.circular(28.0)),
